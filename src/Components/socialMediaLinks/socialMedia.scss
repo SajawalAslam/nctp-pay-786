@@ -1,0 +1,68 @@
+.socialParrent{
+    position: fixed;
+    top:120px;
+    height: 390px;
+    width: 320px;
+    z-index: 999;
+    left: 100%;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.mysocialicontext{
+    display: inline-flex;
+    transform: rotate(-90deg);
+    padding: 5px;
+    position: relative;
+    left:-80px;
+    top:160px;
+    background: rgb(248, 18, 87);
+    color: white;
+    cursor: pointer;
+    // width: 50%;
+}
+.icon-par{
+    display: flex;
+    padding-top: 5px;
+    cursor: pointer;
+    padding-left: 5px;
+    transition: all 0.5s;
+}
+.icon-par:hover{
+    display: flex;
+    padding-top: 5px;
+    cursor: pointer;
+    background: rgba(48, 46, 46, 0.11);
+    padding-left: 13px;
+    transition: all 0.5s;
+}
+
+.my-home-icon-social{
+    width: 50px !important;
+    height: 50px!important;
+    
+
+}
+.i-text{
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(248, 18, 87);
+    
+}
+.close-icon-my{
+    color:rgb(248, 18, 87);
+    font-size: 30px;
+    margin-top: -20px;
+    cursor: pointer;
+    text-align: right!important;
+
+}
+
+@media(max-width:500px){
+    .close-icon-my{
+        
+        text-align: left!important;
+        margin-left: 8px;
+    
+    }
+}

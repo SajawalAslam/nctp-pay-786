@@ -1,0 +1,52 @@
+
+.AdminLogin-submit-button {
+    margin-top: 27px;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 100px;
+    color: #ec3136;
+    border: 1px solid #ec3136;
+    display: block;
+    cursor: pointer;
+    -webkit-transition: .5s;
+    transition: .5s;
+    font-weight: 700;
+    outline-style: none!important;
+    background-color: #fff;
+}
+
+
+.AdminLogin-submit-button:hover {
+    
+    color: white;
+    border: 1px solid #ec3136;
+    
+    background-color: #ec3136;
+}
+.AdminLogin-submit-button:hover > .card-top{
+    background: linear-gradient(90deg, #e0218a, #ffcc0d) !important;
+}
+body{
+    background-color: #f8f9fa!important; 
+}
+.card{
+    transition: all 0.25s;
+}
+.card:hover{
+    transform: scale(1.1) !important;
+    transition: all 0.25s;
+}
+@media(max-width:750px){
+    .courses .card{
+        margin-right: 0rem !important;
+    }
+    .courses h1{
+      font-size: 40px !important;
+    }
+    .card:hover{
+        transform: none !important;
+        transition: all 0.25s;
+    }
+  }

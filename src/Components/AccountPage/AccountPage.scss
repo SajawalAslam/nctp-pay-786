@@ -1,0 +1,45 @@
+.Account-text{
+    // font-weight: 500 !important;
+}
+.account-color{
+    color:#ff2a2a;
+}
+.vari-link{
+    text-decoration: none;
+}
+.account-span{
+    font-weight: bolder;
+}
+.Deposit-slip{
+    display: inline-flex;
+    margin: 0px 30px 20px 30px;
+}
+.further-text{
+    font-size: 15px;
+    font-weight: 900;
+}
+body{
+    background: white !important;
+}
+.Deadline , .Deposit-slip{
+    background-color: #ed3237;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: #fff;
+    outline: none!important;
+    transition: all 0.1s;
+    cursor: pointer;
+    
+}
+.Deadline:hover , .Deposit-slip:hover{
+    background: #d64449;
+    transition: all 0.1s;
+}
+.pay-verification{
+    background: #ff2a2a;
+    color:white !important;
+}
+.pay-parent{
+    background-color: #f8f9fa!important;
+}
